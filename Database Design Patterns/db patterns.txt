@@ -1,0 +1,17 @@
+Multi-Tenancy Pattern
+ materialized view pattern
+aggregate pattern
+Polymorphic Association Pattern
+write-ahead log pattern
+cqrs pattern
+hierarchical data pattern
+denormalization pattern
+data valut pattern
+snapshot pattern
+parent-chaild pattern
+soft delete pattern
+audit logging pattern
+single partitioning pattern
+single table inheritance pattern
+
+entity -attribute value pattern

@@ -47,12 +47,15 @@ Polymorphic Association Pattern
 Allows a model to belong to multiple other models using a single association, typically by including a type and ID field. For example, a "Comments" table that can be associated with either "Posts" or "Photos" through fields like commentable_id and commentable_type.
 Index Table Pattern
 Aims to speed up read performance by creating a secondary table containing indexed fields from the main table. This is especially useful for queries requiring frequent access to specific columns without needing to load the entire row.
+
 Sharding Pattern
 Divides a large database into smaller, faster, and more manageable parts (shards), distributed across multiple servers. Sharding is popular in distributed databases and is suitable for applications with high transaction volumes, like social media platforms.
 Read-Replica Pattern
 Involves creating a read-only copy of a database to handle read-heavy traffic, thus reducing the load on the primary database. It’s often used in applications that require high read availability, such as e-commerce websites.
 Event Sourcing Pattern
 Stores all changes to application state as a sequence of events, rather than storing only the current state. Useful in systems where a complete history of changes is needed, such as financial applications that track transactions.
+
+
 Materialized View Pattern
 Creates and maintains a precomputed, persistent view that stores query results, which is then periodically updated. This pattern is ideal for complex queries on large datasets, as it speeds up query performance by avoiding repetitive computation.
 Aggregate Pattern
